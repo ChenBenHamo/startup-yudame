@@ -1,0 +1,54 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  /*if the first font doesn't exist, use the other*/
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+  /*these lines help us to get a perfect bg image*/
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: white;
+}
+
+hr {
+  border-color: orange;
+  /*make the hr more thick*/
+  border-width: 3px;
+  /*we don't want that the hr will appear all the way*/
+  max-width: 65px;
+}
+
+.buffer {
+  height: 10rem;
+}
+
+.btn {
+  border-radius: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background-color: orange;
+  border-color: orange;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 2px;
+}
+
+.btn-xl {
+  /*make the size more bigger:  1rem on the sides, 2rem on bottom*/
+  padding: 1rem 2rem;
+}
